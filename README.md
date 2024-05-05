@@ -1,3 +1,14 @@
+---
+title: JobDescriptionParser
+emoji: 🔥
+colorFrom: green
+colorTo: blue
+sdk: streamlit
+sdk_version: 1.29.0
+app_file: streamlit_app.py
+pinned: false
+---
+
 # 🚀 Data Job Insights: Unlock Your Career Potential! 📊
 
 Are you ready to take your data career to the next level? Look no further! This project is here to revolutionize the way you approach your job search and resume optimization. By leveraging the power of an advanced Language Model (LLM), we've created a game-changing tool that will give you the inside scoop on what employers are really looking for in data-related roles. 💡
