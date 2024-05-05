@@ -48,7 +48,7 @@ llm_dict = {
 col1, col2 = st.columns(2)
 
 with col1:
-    job_description = st.text_area("Enter the job description", height=200)
+    job_description = st.text_area("Enter the job description", height=3000)
     extract_button = st.button("Extract Fields from Description")
 
 if extract_button and job_description:
