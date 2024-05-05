@@ -2,6 +2,8 @@
 
 Are you ready to take your data career to the next level? Look no further! This project is here to revolutionize the way you approach your job search and resume optimization. By leveraging the power of an advanced Language Model (LLM), we've created a game-changing tool that will give you the inside scoop on what employers are really looking for in data-related roles. 💡
 
+![Job Detail Extractor](images/jobDetailExtractor3part.png)
+
 ## 🎯 What's the Goal?
 
 Our mission is to build a comprehensive database of job descriptions for various data-related positions, including:
