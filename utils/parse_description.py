@@ -52,3 +52,4 @@ def extract_desc_fields(raw_job_description):
     )
     
     return extractor.invoke(raw_job_description)
+
