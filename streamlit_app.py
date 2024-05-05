@@ -26,17 +26,11 @@ with col2:
     st.write("""
     Welcome to the Job Description Parser, a revolutionary tool designed to extract structured information from job descriptions using the magic of advanced Language Models (LLMs)! 🪄📄
     
-    Our team of data scientists and military veterans is on a mission to revolutionize the way you approach your job search and resume optimization. By leveraging the power of LLMs, we've created a game-changing tool that will give you the inside scoop on what employers are really looking for in data-related roles. 💡
-    
     Our goal is to build a comprehensive database of job descriptions for various data-related positions, including Data Scientist 🔬, Data Engineer ⚙️, Data Analyst 📈, Machine Learning Engineer 🤖, and more! 💼 But we're not just collecting job postings – we're taking it to the next level! Our cutting-edge LLM will parse each job description and extract key information, giving you unparalleled insights into what skills, experiences, and qualities are most sought-after in the industry. 🔍
     
     We've designed a robust system using Pydantic models to capture and structure the most important aspects of each job description, including company overview, role summary, responsibilities and qualifications, and compensation and benefits. 💰
     
-    With this wealth of information at your fingertips, you'll be able to tailor your resume and interview responses to perfectly match what employers are looking for! 🎯
-    
     In the near future, we'll be adding even more powerful features to help you land your dream data job, such as automatically categorizing job descriptions based on key characteristics, providing personalized resume suggestions based on your target roles, and offering insider tips and strategies for acing data job interviews. 🔮
-    
-    We believe in the power of community and collaboration, so if you're passionate about data careers and want to contribute to this project, we'd love to have you on board! 🤝
     
     Upload a job description, select your models, and watch the magic happen. 🎩✨ Let's unlock the full potential of LLMs together and make job description parsing a breeze! 😎
     """)
@@ -54,7 +48,7 @@ llm_dict = {
 col1, col2 = st.columns(2)
 
 with col1:
-    job_description = st.text_area("Enter the job description")
+    job_description = st.text_area("Enter the job description", height=200)
     extract_button = st.button("Extract Fields from Description")
 
 if extract_button and job_description:
