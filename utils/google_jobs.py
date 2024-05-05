@@ -1,10 +1,7 @@
 import pandas as pd
-# from serpapi import GoogleSearch
-import sqlite3
 import datetime as dt
 import http.client
 import json
-import config
 import urllib.parse
 import os
 from sqlalchemy import create_engine
