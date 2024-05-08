@@ -66,8 +66,6 @@ if extract_button and job_description:
                 st.write(extracted_fields.company_overview.mission_and_values)
                 st.write(f"Size: {extracted_fields.company_overview.size}")
                 st.write(f"Locations: {extracted_fields.company_overview.locations}")
-                st.write(f"City: {extracted_fields.company_overview.city}")
-                st.write(f"State: {extracted_fields.company_overview.state}")
 
             if extracted_fields.role_summary:
                 st.write("## Role Summary")
