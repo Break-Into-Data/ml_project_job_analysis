@@ -93,11 +93,9 @@ if extract_button and job_description:
                 st.write(f"Salary or Pay Range: {extracted_fields.compensation_and_benefits.salary_or_pay_range}")
                 st.write(f"Bonus and Equity: {extracted_fields.compensation_and_benefits.bonus_and_equity}")
                 st.write("### Benefits")
-                for benefit in extracted_fields.compensation_and_benefits.benefits:
+                for benefit in extracted_fields.compensation_and_benefits.benefits_and_perks:
                     st.write(f"- {benefit}")
-                st.write("### Perks")
-                for perk in extracted_fields.compensation_and_benefits.perks:
-                    st.write(f"- {perk}")
+                
 
         except Exception as e:
             st.write(f"An error occurred: {e}")
