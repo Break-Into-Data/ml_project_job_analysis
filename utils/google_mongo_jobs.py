@@ -28,7 +28,7 @@ def google_job_search(job_title, city_state, start=0):
         "engine": "google_jobs",
         "q": query,
         "hl": "en",
-        # "google_domain": "google.com",
+        "google_domain": "google.com",
         # "start": start,
         # "chips": f"date_posted:{post_age}",
     }
