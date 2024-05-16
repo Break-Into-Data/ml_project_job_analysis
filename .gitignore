@@ -2,6 +2,7 @@
 .ipynb_checkpoints/
 
 # Python virtual environment
+myenv/
 venv/
 *.env
 .env
